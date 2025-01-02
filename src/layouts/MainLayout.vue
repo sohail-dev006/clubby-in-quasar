@@ -28,7 +28,7 @@
             </q-menu>
            <q-menu v-if="$q.screen.lt.sm" class="q-mt-xl rounded-8" :class="$q.screen.lt.sm ? 'q-pa-sm': 'q-pa-lg q-pb-xl'" style=" border-radius: 12px !important;  max-height: 475px; visibility: visible; min-width: 4px !important; top: 77px; left: 773.094px;"
           :offset="[450, 15]">
-          <q-list >
+           <q-list >
               <q-item class="q-pa-none">
                 <q-item-section class="f-24 font-SSP600 text-3F4354">
                   Notifications
